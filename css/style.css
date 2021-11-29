@@ -1,0 +1,183 @@
+/* *{
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    background-color: black;
+}
+
+ul{
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px;
+    
+} */
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(65, 65, 65) ;
+  }
+  
+  .logo {
+    float: left;
+  }
+  /* ~~ Top Navigation Bar ~~ */
+  
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    text-align:center;
+  }
+  .navigation-bar img{
+  float:left;
+  }
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    float: right;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+  }
+  
+  .navigation-bar li a {
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+
+  /* main */
+  .bondpaper{
+    margin: auto;
+    border: black solid 1px;
+    background-color: white;
+    height: auto;
+    width: 900px;
+}
+
+.intro{
+    text-align: center;
+}
+
+.para{
+    text-align: center;
+}
+
+.basic{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+/* categories */
+.basic1{
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    margin: 0px 0px 20px 0px;
+}
+
+.box{
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 0px 10px 0px 10px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+
+/* Sign Up */
+.sign_up{
+  text-align: center;
+}
+
+.form{
+  display: grid;
+  grid-template-rows: auto;
+
+}
+
+.type{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=password] {
+  width: 50%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+button[type=submit] {
+  width: auto;
+  background-color: #c8ccca;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.signup-form{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
